@@ -13,7 +13,7 @@ gem "puma"
 gem "sinatra"
 gem "sinatra-contrib"
 gem "private_address_check"
-
+gem "g"
 group :development, :test do
   gem "minitest"
   gem "pry"
