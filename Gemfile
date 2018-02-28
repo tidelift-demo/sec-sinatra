@@ -14,6 +14,8 @@ gem "sinatra"
 gem "sinatra-contrib"
 gem "private_address_check"
 gem "g"
+gem "jwt"
+
 group :development, :test do
   gem "minitest"
   gem "pry"
