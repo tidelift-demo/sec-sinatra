@@ -17,6 +17,7 @@ module AuthService
     end
 
     configure :development do
+      # This is development
       require "pry"
       set :port, 4568
       set :host, "http://localhost:4568"
