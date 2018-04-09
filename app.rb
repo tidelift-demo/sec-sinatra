@@ -8,7 +8,7 @@ require "sinatra/cookies"
 require "private_address_check"
 
 module AuthService
-  # Sinatra app to perform authentication related user actions
+  # Sinatra app to perform authentication related user actions, and things
   class App < Sinatra::Base
     configure do
       register Sinatra::MultiRoute
